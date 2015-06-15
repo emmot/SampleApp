@@ -51,7 +51,11 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '~> 3.2.3'
-  
+  gem 'guard', '~> 2.12.6'
+  gem 'guard-rspec'  
+  gem 'spork-rails', github: 'railstutorial/spork-rails'
+  gem 'childprocess', '0.5.6'
+
   gem 'sqlite3'
 end
 
